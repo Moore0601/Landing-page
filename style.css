@@ -14,16 +14,25 @@ nav {
 }
 
 nav .second .navlinks a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: firebrick;
+  margin-right: 15px;
+  text-decoration: none;
+  color: firebrick;
 }
 
-nav .second .navlinks a:hover{
-    text-decoration: underline;
+nav .second .navlinks a:hover {
+  text-decoration: underline;
 }
 
-.logo{
-    height: 70px;
-    width: 70px;
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+nav .third .icon-container i {
+  font-size: 20px;
+  color: black;
+}
+
+nav .third .icon-container i:hover {
+  color: tomato;
 }
