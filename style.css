@@ -36,3 +36,36 @@ nav .third .icon-container i {
 nav .third .icon-container i:hover {
   color: tomato;
 }
+
+main {
+  display: flex;
+}
+
+main .left {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+main .right {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+main .left h1 span {
+  color: firebrick;
+}
+
+main .left h2 span {
+  color: firebrick;
+}
+
+main .right .right-container img{
+    height: 270px;
+    width: 350px;
+}
