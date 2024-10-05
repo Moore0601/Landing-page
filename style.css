@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+nav .second .navlinks a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: firebrick;
+}
+
+nav .second .navlinks a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
